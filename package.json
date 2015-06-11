@@ -1,0 +1,23 @@
+{
+  "name": "json-editor-custom-types",
+  "version": "0.0.1",
+  "description": "",
+  "main": "run.js",
+  "dependencies": {
+    "json-editor": "^0.7.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samchrisinger/json-editor-custom-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samchrisinger/json-editor-custom-types/issues"
+  },
+  "homepage": "https://github.com/samchrisinger/json-editor-custom-types"
+}
