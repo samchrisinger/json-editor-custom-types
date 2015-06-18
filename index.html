@@ -1,11 +1,35 @@
 <html>
 
-<head>
-  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="node_modules/json-editor/dist/jsoneditor.js"></script>
-  <script src="run.js"></script>
-</head>
-<body>
-  <div id="editor_holder"></div>
-</body>
+    <head>
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="node_modules/json-editor/dist/jsoneditor.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="run.js"></script>
+        <style>
+        body, html{ padding: 10px; margin: 10px; }
+        #editor_holder input[type="text"]:disabled {
+            color : darkGray;
+            margin: 4em 1em 1em;
+        }
+        .comment-base {
+            width: 800px;
+            height: 100px;
+            border-radius: 10px;
+            background-color: green;
+        }
+        .comment-edited {
+            height: 100px;
+            background-color: red;
+        }
+        .comment-base {
+            width: 800px;
+            border-radius: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="editor_holder"></div>
+
+        <input type="button" class="btn btn-default" id="edit-btn" value="Save/Edit">
+    </body>
 </html>
